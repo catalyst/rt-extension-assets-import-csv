@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+# This is to turn on verbose mode.
+# export DH_VERBOSE=1
+
+RTHOME=/usr/share/request-tracker4
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	pod2man -c "Request Tracker Reference" --section 8 --name rt-assets-import-csv bin/rt-assets-import-csv > debian/rt-assets-import-csv.8
+
+override_dh_auto_test:
+
+# don't run the dh auto install command (we use debian/install)
+override_dh_auto_install-indep:
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf MYMETA.yml Makefile4
+

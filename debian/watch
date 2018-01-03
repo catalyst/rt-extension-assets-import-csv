@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/RT-Extension-Assets-Import-CSV   .*/RT-Extension-Assets-Import-CSV-v?(\d[\d.-]*)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

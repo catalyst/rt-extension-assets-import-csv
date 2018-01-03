@@ -1,0 +1,3 @@
+lib usr/share/request-tracker4/plugins/RT-Extension-Assets-Import-CSV
+bin/rt-assets-import-csv /usr/sbin
+
