@@ -13,7 +13,7 @@ Homepage: https://metacpan.org/release/RT-Extension-Assets-Import-CSV
 Package: rt4-extension-assets-import-csv
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends},
- request-tracker4 (>= 4.0.3),
+ request-tracker4 (>= 4.4.0),
  perl
 Description: Import Assets from CSV files (Request Tracker)
  This extension allows importing and updating Asset records from CSV files.
