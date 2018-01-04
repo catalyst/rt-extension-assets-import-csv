@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 9.20120312)
 Build-Depends-Indep: perl
  , libmodule-install-rtx-perl
 Standards-Version: 3.9.8
-Vcs-Git: https://anonscm.debian.org/git/pkg-request-tracker/rt-extension-assets-import-csv.git -b dpkg
-Vcs-Browser: https://anonscm.debian.org/git/pkg-request-tracker/rt-extension-assets-import-csv.git?h=dpkg
+Vcs-Git: https://salsa.debian.org/request-tracker-team/rt-extension-assets-import-csv.git
+Vcs-Browser: https://salsa.debian.org/request-tracker-team/rt-extension-assets-import-csv
 Homepage: https://metacpan.org/release/RT-Extension-Assets-Import-CSV
 
 Package: rt4-extension-assets-import-csv
@@ -18,5 +18,5 @@ Depends: ${misc:Depends}, ${perl:Depends},
 Description: Import Assets from CSV files (Request Tracker)
  This extension allows importing and updating Asset records from CSV files.
  .
- This is for RT 4.4.x, solutions for older versions available on from CPAN.
+ This is for RT 4.4.x, solutions for older versions available on CPAN.
  .
