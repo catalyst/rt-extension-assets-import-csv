@@ -5,7 +5,7 @@ Upstream-Name: RT-Extension-Assets-Import-CSV
 
 Files: *
 Copyright: 2014-2016, Best Practical Solutions
-License: Artistic or GPL-1+
+License: GPL-2
 
 Files: debian/*
 Copyright: 2018, Andrew Ruthven <andrew@etc.gen.nz>
@@ -26,3 +26,11 @@ License: GPL-1+
  .
  On Debian systems, the complete text of version 1 of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-1'.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
